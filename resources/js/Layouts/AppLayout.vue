@@ -18,6 +18,11 @@
                                 Dashboard
                             </jet-nav-link>
                         </div>
+                        <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                            <inertia-link :href="route('post.index')">
+                                Post
+                            </inertia-link>
+                        </div>
                     </div>
 
                     <!-- Settings Dropdown -->
